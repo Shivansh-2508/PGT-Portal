@@ -24,7 +24,7 @@ const Dash = () => {
   return (
     <main className="self-center">
       <h2 className="m-6 font-spectral mx-auto text-center text-6xl font-bold dark:text-slate-400">
-        Pgt
+        Pinnacle Group Tuitions
       </h2>
       <div className="grid grid-cols-1 place-content-center gap-3 px-1 py-4 lg:grid-cols-2 lg:gap-4 lg:px-8 xl:grid-cols-3">
         <Link

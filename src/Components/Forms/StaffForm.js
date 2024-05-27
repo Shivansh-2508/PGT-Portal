@@ -38,12 +38,12 @@ const StaffForm = () => {
   };
 
   return (
-    <form className="scrollWidth w-full animate-fadeIn font-medium tracking-wide accent-violet-600">
+    <form className="scrollWidth w-full animate-fadeIn font-medium tracking-wide accent-blue-600">
       <label className="block" htmlFor="name">
         Name:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-[1.5px] focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400 "
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-[1.5px] focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400 "
         type="text"
         name="name"
         required
@@ -55,7 +55,7 @@ const StaffForm = () => {
         Email:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400 "
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400 "
         type="text"
         required
         id="email"
@@ -67,7 +67,7 @@ const StaffForm = () => {
         Department:
       </label>
       <select
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-[1.5px] focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-[1.5px] focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
         placeholder="select department"
         name="department"
         id="department"
@@ -80,7 +80,7 @@ const StaffForm = () => {
         </option>
 
         <option
-          className="min-h-[2rem] bg-violet-500 font-semibold leading-8 text-slate-100"
+          className="min-h-[2rem] bg-blue-500 font-semibold leading-8 text-slate-100"
           value="Computer"
         >
           Computer
@@ -90,7 +90,7 @@ const StaffForm = () => {
         Username:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400 "
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400 "
         name="username"
         type="text"
         required
@@ -102,7 +102,7 @@ const StaffForm = () => {
         Password:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400 "
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400 "
         type="password"
         name="password"
         id="password"
@@ -112,7 +112,7 @@ const StaffForm = () => {
       />
       <button
         type="submit"
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 p-1 font-bold tracking-wide text-slate-200 hover:bg-violet-900 focus:bg-violet-900 dark:border-violet-300 dark:bg-violet-600 dark:text-slate-50 dark:hover:bg-slate-900 "
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 p-1 font-bold tracking-wide text-slate-200 hover:bg-blue-900 focus:bg-blue-900 dark:border-blue-300 dark:bg-blue-600 dark:text-slate-50 dark:hover:bg-slate-900 "
         onClick={(e) => addStaff(e)}
       >
         Register

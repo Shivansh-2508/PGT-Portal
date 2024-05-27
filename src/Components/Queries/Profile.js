@@ -27,7 +27,7 @@ const Profile = () => {
               <PiStudentThin className="m-2 rounded-full border-2 border-slate-900 p-1 text-6xl font-light dark:border-slate-300 md:p-2 md:text-9xl lg:text-[12rem]" />
             )}
             <div className="flex flex-col items-start justify-center">
-              <h2 className=" whitespace-break-spaces text-3xl font-bold text-violet-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
+              <h2 className=" whitespace-break-spaces text-3xl font-bold text-blue-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
                 {user?.name}
               </h2>
               <p className="text-lg capitalize sm:text-xl md:text-2xl">

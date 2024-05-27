@@ -26,13 +26,13 @@ const RowWithCheckbox = ({ keys, disabled, value, handleFormChange }) => {
       key={keys}
       className={
         value.present
-          ? "border-t-[1px] border-slate-400 bg-violet-900/50 first:border-none"
+          ? "border-t-[1px] border-slate-400 bg-blue-900/50 first:border-none"
           : "border-t-[1px] border-slate-400"
       }
     >
       <td className="p-2 text-center">
         <input
-          className="l mx-auto h-9 w-9 p-4 text-2xl accent-violet-900"
+          className="l mx-auto h-9 w-9 p-4 text-2xl accent-blue-900"
           type="checkbox"
           required
           disabled={disabled}

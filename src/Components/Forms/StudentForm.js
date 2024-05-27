@@ -35,12 +35,12 @@ const StudentForm = () => {
   };
 
   return (
-    <form className="scrollWidth w-full animate-fadeIn font-medium tracking-wide accent-violet-600">
+    <form className="scrollWidth w-full animate-fadeIn font-medium tracking-wide accent-white">
       <label className="block" htmlFor="name">
         Name:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
         type="text"
         required
         id="name"
@@ -51,7 +51,7 @@ const StudentForm = () => {
         Email:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
         type="text"
         required
         id="email"
@@ -62,7 +62,7 @@ const StudentForm = () => {
         Course:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
         type="text"
         required
         id="course"
@@ -73,7 +73,7 @@ const StudentForm = () => {
         Username:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
         type="text"
         id="username"
         required
@@ -84,7 +84,7 @@ const StudentForm = () => {
         Password:
       </label>
       <input
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
         type="password"
         id="password"
         value={student.password}
@@ -93,7 +93,7 @@ const StudentForm = () => {
       />
       <button
         type="submit"
-        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 p-1 font-bold tracking-wide text-slate-200 hover:bg-violet-900 focus:bg-violet-900 dark:border-violet-300 dark:bg-violet-600 dark:text-slate-50 dark:hover:bg-slate-900 "
+        className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 p-1 font-bold tracking-wide text-slate-200 hover:bg-blue-900 focus:bg-blue-900 dark:border-blue-300 dark:bg-blue-600 dark:text-slate-50 dark:hover:bg-slate-900 "
         onClick={(e) => addStudent(e)}
       >
         Register

@@ -36,7 +36,7 @@ const Notes = () => {
 
   return (
     <main>
-      <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-violet-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
+      <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-blue-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
         {paper.paper}
       </h2>
       <ul className="grid grid-cols-1 font-semibold sm:grid-cols-2 lg:flex lg:items-center lg:justify-start lg:gap-16">
@@ -47,7 +47,7 @@ const Notes = () => {
         )}
         <li>
           <Link
-            className="rounded-md px-2 py-1 underline decoration-violet-900  decoration-2 underline-offset-2 hover:bg-violet-950 hover:text-slate-100 hover:decoration-0 dark:decoration-inherit dark:hover:bg-violet-900/80 dark:hover:text-slate-200 md:p-2 "
+            className="rounded-md px-2 py-1 underline decoration-blue-900  decoration-2 underline-offset-2 hover:bg-blue-950 hover:text-slate-100 hover:decoration-0 dark:decoration-inherit dark:hover:bg-blue-900/80 dark:hover:text-slate-200 md:p-2 "
             to="students"
           >
             Students
@@ -56,7 +56,7 @@ const Notes = () => {
         {user.userType === "staff" && (
           <li>
             <Link
-              className="rounded-md px-2 py-1 underline decoration-violet-900   decoration-2 underline-offset-2 hover:bg-violet-950 hover:text-slate-100 hover:decoration-0 dark:decoration-inherit dark:hover:bg-violet-900/80 dark:hover:text-slate-200 md:p-2 "
+              className="rounded-md px-2 py-1 underline decoration-blue-900   decoration-2 underline-offset-2 hover:bg-blue-950 hover:text-slate-100 hover:decoration-0 dark:decoration-inherit dark:hover:bg-blue-900/80 dark:hover:text-slate-200 md:p-2 "
               to="add"
             >
               Add Note
@@ -70,7 +70,7 @@ const Notes = () => {
       <section className="note__body w-full ">
         {notes?.map((note, index) => (
           <article
-            className="mt-4 overflow-auto whitespace-break-spaces rounded-md  bg-violet-300 hover:bg-violet-400/60 dark:bg-slate-800/70 dark:hover:bg-slate-800 duration-300 dark:text-slate-300"
+            className="mt-4 overflow-auto whitespace-break-spaces rounded-md  bg-blue-300 hover:bg-blue-400/60 dark:bg-slate-800/70 dark:hover:bg-slate-800 duration-300 dark:text-slate-300"
             key={index}
           >
             <details className="duration-200">
@@ -80,7 +80,7 @@ const Notes = () => {
                   {user.userType === "staff" && (
                     <div className="flex p-3 pb-1">
                       <Link to={`${index}/edit`} id={index}>
-                        <FaEdit className="ml-2 duration-200 rounded-md p-1 text-3xl hover:bg-violet-900 hover:text-slate-100 dark:hover:bg-violet-600 lg:p-2 lg:text-4xl" />
+                        <FaEdit className="ml-2 duration-200 rounded-md p-1 text-3xl hover:bg-blue-900 hover:text-slate-100 dark:hover:bg-blue-600 lg:p-2 lg:text-4xl" />
                       </Link>
                       <Link
                         id={note._id}
@@ -93,7 +93,7 @@ const Notes = () => {
                   )}
                 </div>
               </summary>
-              <hr className="border-b-[1.5px] border-violet-900 dark:border-slate-500 " />
+              <hr className="border-b-[1.5px] border-blue-900 dark:border-slate-500 " />
               <pre className="whitespace-pre-wrap p-4 font-sans">
                 {note.body}
               </pre>

@@ -35,10 +35,8 @@ const RegisterLayout = () => {
               to="../"
             >
               <FaUniversity />
-              <p className="decoration-violet-900 decoration-2 hover:underline dark:decoration-violet-300">
-                K
-                <span className=" inline-block h-3 w-3 rounded-full bg-violet-900 dark:bg-violet-500 "></span>
-                llege
+              <p className="decoration-blue-900 decoration-2 hover:underline dark:decoration-blue-300 ml-1">
+                Pinnacle
               </p>
             </Link>
           </div>

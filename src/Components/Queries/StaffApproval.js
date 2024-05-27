@@ -59,7 +59,7 @@ const StaffApproval = () => {
     <>
       {user.role === "HOD" ? (
         <main className="staff__approval">
-          <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-violet-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
+          <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-blue-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
             Approve Staff
           </h2>
           <h3 className="text-2xl font-semibold">
@@ -91,14 +91,14 @@ const StaffApproval = () => {
                             type="button"
                             id={index}
                             onClick={(e) => handleApprove(e)}
-                            className="m-0 flex h-auto w-full justify-center bg-transparent  py-3 text-xl duration-200 text-violet-400 hover:text-white hover:bg-violet-900 "
+                            className="m-0 flex h-auto w-full justify-center bg-transparent  py-3 text-xl duration-200 text-blue-400 hover:text-white hover:bg-blue-900 "
                           >
                             <FaPlus />
                           </button>
                         </td>
                         <td className="border-t-[1px] border-slate-400 p-0">
                           <button
-                            className="m-0 flex h-auto w-full justify-center bg-transparent  py-3 text-xl duration-200 text-violet-400 hover:text-white hover:bg-red-600 "
+                            className="m-0 flex h-auto w-full justify-center bg-transparent  py-3 text-xl duration-200 text-blue-400 hover:text-white hover:bg-red-600 "
                             type="button"
                             id={index}
                             onClick={(e) => handleDelete(e)}

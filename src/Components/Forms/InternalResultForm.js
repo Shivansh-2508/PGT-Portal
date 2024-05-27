@@ -106,13 +106,13 @@ const InternalResultForm = () => {
 
   return (
     <main className="internal">
-      <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-violet-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
+      <h2 className="mb-2 mt-3 whitespace-break-spaces text-4xl font-bold text-blue-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400 md:text-6xl">
         Internal Mark
       </h2>
       <section className="form__head">
-        <form className="w-full gap-4 accent-violet-900 md:flex">
+        <form className="w-full gap-4 accent-blue-900 md:flex">
           <select
-            className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400 md:w-1/3"
+            className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400 md:w-1/3"
             placeholder="select paper"
             name="paper"
             id="paper"
@@ -130,7 +130,7 @@ const InternalResultForm = () => {
             ))}
           </select>
           <button
-            className="mb-4 h-10 w-auto rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 px-8 py-2 font-semibold tracking-wide text-slate-200 hover:bg-violet-900 focus:bg-violet-900 disabled:cursor-not-allowed dark:border-violet-300 dark:bg-violet-900 dark:text-violet-100 dark:hover:bg-slate-900"
+            className="mb-4 h-10 w-auto rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 px-8 py-2 font-semibold tracking-wide text-slate-200 hover:bg-blue-900 focus:bg-blue-900 disabled:cursor-not-allowed dark:border-blue-300 dark:bg-blue-900 dark:text-blue-100 dark:hover:bg-slate-900"
             type="submit"
             onClick={(e) => fetchInternal(e)}
           >
@@ -167,7 +167,7 @@ const InternalResultForm = () => {
                           parseInt(student?.assignment) +
                           parseInt(student?.attendance) >
                         12
-                          ? "border-t-[1px] border-slate-400 bg-violet-900/50 first:border-none"
+                          ? "border-t-[1px] border-slate-400 bg-blue-900/50 first:border-none"
                           : "border-t-[1px] border-slate-400 first:border-none"
                       }
                     >
@@ -259,14 +259,14 @@ const InternalResultForm = () => {
             <div className="flex gap-4">
               <button
                 type="submit"
-                className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 px-6 py-2 font-semibold tracking-wide text-slate-200 hover:bg-violet-900 focus:bg-violet-900 dark:border-violet-300 dark:bg-violet-900 dark:text-violet-100 dark:hover:bg-slate-900"
+                className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 px-6 py-2 font-semibold tracking-wide text-slate-200 hover:bg-blue-900 focus:bg-blue-900 dark:border-blue-300 dark:bg-blue-900 dark:text-blue-100 dark:hover:bg-slate-900"
                 onClick={(e) => setDisabled(false)}
               >
                 <FaEdit /> Edit
               </button>
               <button
                 type="submit"
-                className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 px-6 py-2 font-semibold tracking-wide text-slate-200 hover:bg-red-700 focus:bg-violet-900 dark:border-violet-300 dark:bg-violet-900 dark:text-violet-100 dark:hover:bg-red-700"
+                className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 px-6 py-2 font-semibold tracking-wide text-slate-200 hover:bg-red-700 focus:bg-blue-900 dark:border-blue-300 dark:bg-blue-900 dark:text-blue-100 dark:hover:bg-red-700"
                 onClick={(e) => deleteInternalMark(e)}
               >
                 <FaTrash /> Delete
@@ -278,7 +278,7 @@ const InternalResultForm = () => {
           {internal.length && !disabled ? (
             <button
               type="submit"
-              className="mb-4 flex h-10 group-invalid:hidden w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 px-6 py-2 font-semibold tracking-wide text-slate-200 hover:bg-violet-900 focus:bg-violet-900 dark:border-violet-300 dark:bg-violet-900 dark:text-violet-100 dark:hover:bg-slate-900"
+              className="mb-4 flex h-10 group-invalid:hidden w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 px-6 py-2 font-semibold tracking-wide text-slate-200 hover:bg-blue-900 focus:bg-blue-900 dark:border-blue-300 dark:bg-blue-900 dark:text-blue-100 dark:hover:bg-slate-900"
               onClick={(e) => addInternalMark(e)}
             >
               <FaPlus /> Save

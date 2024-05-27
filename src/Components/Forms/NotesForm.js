@@ -57,7 +57,7 @@ const NotesForm = () => {
 
   return (
     <main className="notes">
-      <h2 className="mb-2 mt-3 text-6xl font-bold text-violet-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400">
+      <h2 className="mb-2 mt-3 text-6xl font-bold text-blue-950 underline decoration-inherit decoration-2 underline-offset-4 dark:mt-0 dark:text-slate-400">
         {paper?.paper}
       </h2>
       <h3 className="text-2xl font-medium">
@@ -68,7 +68,7 @@ const NotesForm = () => {
           Title:
         </label>
         <input
-          className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+          className="mb-4 block h-10 w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
           type="text"
           id="title"
           required
@@ -79,7 +79,7 @@ const NotesForm = () => {
           Body:
         </label>
         <textarea
-          className="mb-4 block w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-violet-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-violet-400 dark:active:border-violet-400"
+          className="mb-4 block w-full rounded-md border-[1.5px] border-solid border-slate-400 p-1 pl-2 outline-none selection:border-slate-200 focus:border-blue-900 dark:border-slate-200 dark:caret-inherit dark:focus:border-blue-400 dark:active:border-blue-400"
           rows="12"
           type="text"
           id="body"
@@ -89,7 +89,7 @@ const NotesForm = () => {
         />
         {noteId !== undefined ? (
           <button
-            className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 px-4 py-2 font-semibold tracking-wide text-slate-200 hover:bg-violet-900 focus:bg-violet-900 dark:border-violet-300 dark:bg-violet-900 dark:text-violet-100 dark:hover:bg-slate-900 "
+            className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 px-4 py-2 font-semibold tracking-wide text-slate-200 hover:bg-blue-900 focus:bg-blue-900 dark:border-blue-300 dark:bg-blue-900 dark:text-blue-100 dark:hover:bg-slate-900 "
             type="submit"
             onClick={(e) => updateNote(e)}
           >
@@ -98,7 +98,7 @@ const NotesForm = () => {
           </button>
         ) : (
           <button
-            className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-violet-900 bg-slate-800 px-4 py-2 font-semibold tracking-wide text-slate-200 hover:bg-violet-900 focus:bg-violet-900 dark:border-violet-300 dark:bg-violet-900 dark:text-violet-100 dark:hover:bg-slate-900"
+            className="mb-4 flex h-10 w-auto items-center gap-2 rounded-md border-[1.5px] border-solid border-blue-900 bg-slate-800 px-4 py-2 font-semibold tracking-wide text-slate-200 hover:bg-blue-900 focus:bg-blue-900 dark:border-blue-300 dark:bg-blue-900 dark:text-blue-100 dark:hover:bg-slate-900"
             type="submit"
             onClick={(e) => addNote(e)}
           >

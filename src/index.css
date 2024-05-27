@@ -52,19 +52,19 @@ form{
   }
 
   #nav a.active {
-    background-color: #4c1d95;
+    background-color: #1d2595;
     border-radius: 0.375rem;
   }
 
   #register a.active {
-    color: #8b5cf6 !important;
+    color: #0061bd !important;
   }
 
   #resister #root .toast {
-    color: #2e1065 !important;
+    color: #102065 !important;
   }
   #root .toast-body {
-    color: #2e1065 !important;
+    color: #103565 !important;
   }
   #root .toast-rounded {
     border-radius: 6px !important;
@@ -105,7 +105,7 @@ form{
     }
     #root .toast-rounded {
       border-radius: 6px !important;
-      background-color: #2e1065 !important;
+      background-color: #0026ff !important;
     }
   }
 }
